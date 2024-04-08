@@ -1,0 +1,20 @@
+.terms {
+	flex-grow: 1;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.terms p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	color: #555;
+}

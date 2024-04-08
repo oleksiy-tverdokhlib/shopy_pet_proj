@@ -1,0 +1,31 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 24px;
+	background-color: #191919;
+	border-radius: 6px;
+}
+
+.title {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5rem;
+	cursor: pointer;
+	outline: none;
+}
+
+.socials {
+	display: flex;
+	column-gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	color: white;
+}

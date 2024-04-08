@@ -1,0 +1,153 @@
+.product {
+	display: flex;
+	flex-grow: 1;
+	max-width: calc(100% - 324px);
+	padding: 24px;
+	column-gap: 32px;
+	color: darkgray;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+.images {
+	display: flex;
+	gap: 20px;
+}
+
+.current {
+	width: 375px;
+	height: 375px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 6px;
+}
+
+.images-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.image {
+	width: 90px;
+	height: 90px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.title {
+	margin-right: auto;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+.price {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 10px 0 20px 0;
+}
+.oldPrice {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration: line-through;
+	margin: 0px 10px;
+}
+
+.color,
+.sizes {
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: capitalize;
+	display: flex;
+	column-gap: 16px;
+	align-items: center;
+}
+
+.sizes {
+	margin: 16px 0;
+}
+
+.color span,
+.sizes span {
+	font-size: 14px;
+	line-height: 17px;
+	color: grey;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+.size {
+	padding: 4px 8px;
+	border-radius: 8px;
+	background: #212123;
+	cursor: pointer;
+}
+
+.size:hover,
+.size.active {
+	background-color: var(--violet-dark);
+}
+
+.description {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: grey;
+}
+
+.actions {
+	margin-top: 20px;
+	display: flex;
+	column-gap: 10px;
+}
+
+.favourite {
+	background-color: var(--violet-dark);
+	border-radius: 6px;
+}
+
+.favourite:hover {
+	background: var(--violet);
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	line-height: 12px;
+	color: grey;
+	margin-top: auto;
+}
+
+.add {
+	background-color: var(--violet-dark);
+}
+
+.add:hover {
+	background: var(--violet);
+}
+.link {
+	color: var(--grey);
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.link:hover {
+	color: var(--white);
+	text-decoration: underline;
+}

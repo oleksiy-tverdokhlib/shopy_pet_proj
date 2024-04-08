@@ -1,0 +1,26 @@
+.sidebar {
+	width: 304px;
+	padding: 24px;
+	height: 423px;
+	display: flex;
+	flex-direction: column;
+	background-color: #191919;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+.title {
+	font-weight: 600;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	margin-top: auto;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: underline;
+}
+.list li {
+	margin: 7px 0px;
+}

@@ -1,0 +1,13 @@
+.active {
+	color: var(--violet);
+	font-size: 15px;
+	line-height: 17px;
+}
+.link {
+	color: darkgray;
+	font-size: 15px;
+	line-height: 17px;
+}
+.link:hover {
+	color: white;
+}
